@@ -4,6 +4,9 @@
 
 A simple timer for boxing. Written with react native, works on android and the web.
 
+  * [Download from Playstore](https://play.google.com/store/apps/details?id=de.janstuemmel.simple_boxtimer&hl=de)
+  * [Download APK from Releases](https://github.com/janstuemmel/simple-boxtimer/releases)
+
 ## Development
 
 ```sh
