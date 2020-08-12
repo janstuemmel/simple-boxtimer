@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Simple Boxtimer",
+    "slug": "simple-boxtimer",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icon-apple.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-adaptive.png",
+        "backgroundColor": "#ffff00"
+      },
+      "versionCode": 4,
+      "package": "de.janstuemmel.simple_boxtimer",
+      "permissions": []
+    },
+    "web": {
+      "themeColor": "#ffffff"
+    }
+  }
+}
