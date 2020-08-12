@@ -1,5 +1,4 @@
 {
-  "name": "simple-boxtimer",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "test": "jest",
@@ -8,8 +7,6 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build:web": "rm -rf docs/* && expo build:web && cp -r web-build/* docs && cp CNAME docs && rm -rf web-build",
-    "build:android": "expo build:android",
     "deploy": "gh-pages -d web-build",
     "predeploy": "rm -rf web-build && expo build:web && cp CNAME web-build"
   },
